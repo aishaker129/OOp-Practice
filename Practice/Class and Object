@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+class Student
+{
+public:
+    int rool;
+    string name;
+};
+
+int main()
+{
+    Student obj1;
+    obj1.rool=2;
+    obj1.name="John";
+    cout<<"ID:"<<obj1.rool<<endl;
+    cout<<"NAME:"<<obj1.name<<endl;
+     Student obj2;
+     obj2.rool=3;
+    obj2.name="Rayhan";
+    cout<<"ID:"<<obj2.rool<<endl;
+    cout<<"NAME:"<<obj2.name<<endl;
+    Student obj3;
+     obj2.rool=4;
+    obj2.name="Shaker";
+    cout<<"ID:"<<obj2.rool<<endl;
+    cout<<"NAME:"<<obj2.name<<endl;
+    return 0;
+}
