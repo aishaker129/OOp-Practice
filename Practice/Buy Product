@@ -1,0 +1,27 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int t,sum=0,product=0,price=0;
+    cin>>t;
+    for(int i=0;i<t;i++)
+    {
+        cin>>product;
+        sum+=product;
+    }
+    cout<<sum<<endl;
+    if(sum>=500)
+    {
+       price=sum-sum*.10;
+    }
+    else
+    {
+        price=sum-sum*.05;
+    }
+    cout<<price<<endl;
+    int taka,returntaka;
+    cin>>taka;
+    returntaka=taka-price;
+   cout<<"Return taka ="<<returntaka<<endl;
+}
