@@ -1,0 +1,15 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+int n,d=0;
+ cin>>n;
+ int arry[n];
+ for(int i=0; i<n; i++){
+        cin>>arry[i];
+    d +=arry[i];
+ }
+ 
+ double b = (double)d/n;
+ cout<<setprecision(12) <<b;
+ return 0;
+}
